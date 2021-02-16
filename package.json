@@ -7,7 +7,8 @@
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2"
+    "react-scripts": "4.0.2",
+    "sass": "^1.32.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,6 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage-inactif": "https://username.github.io/depot-gh/",
+  "homepage": "https://jamc8.github.io/portfolio-web/",
   "homepage-aide": "Avant de déployer sur GitHub vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer 'username' par le nom de votre compte GitHub et 'depot-gh' par le nom de votre dépôt GitHub dans la valeur de la propriété."
 }

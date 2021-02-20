@@ -1,14 +1,14 @@
+import './PiedDePageAccueil.scss';
+
 export default function PiedDePageAccueil(props)
 {
     return(
         <footer className="PiedDePageAccueil">
             <div className="logo">
-                <a href="">Logo
-                    <img src="" />
-                </a>
+                <img src=""/>
             </div>
-            <div class="description">
-                <div class="texte">Programmeur de Jeux Vidéo.</div>
+            <div className="description">
+                <div className="texte">Programmeur de Jeux Vidéo.</div>
             </div>
         </footer>
     );

@@ -1,3 +1,5 @@
+import './EnteteAccueil.scss';
+
 export default function EnteteAccueil(props)
 {
     return(

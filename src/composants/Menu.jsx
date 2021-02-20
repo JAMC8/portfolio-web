@@ -1,5 +1,4 @@
 import './Menu.scss';
-import img from ''
 
 
 export default function Menu(props)

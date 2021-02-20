@@ -1,12 +1,18 @@
+import './Menu.scss';
+import img from ''
+
+
 export default function Menu(props)
 {
+    console.log();
+
     return(
         <div className="Menu">
             <ul className="nav">
-                <li><img src=""/>Programation de Jeux</li>
-                <li><img src=""/>Programation Web</li>
-                <li><img src=""/>À Propos</li>
-                <li><img src=""/>Contact</li>
+                <li><img src="images/_LogoNom.png"/><a>Programation de Jeux</a></li>
+                <li><img src=""/><a>Programation Web</a></li>
+                <li><img src=""/><a>À Propos</a></li>
+                <li><img src=""/><a>Contact</a></li>
             </ul>
         </div>
     );

@@ -1,8 +1,9 @@
 import EnteteAccueil from "./EnteteAccueil";
-import Menu from "./MenuAccueil";
+import MenuAccueil from "./MenuAccueil";
 import PiedDePageAccueil from "./PiedDePageAccueil";
-import videoArrierePlan from "./../videos/00_VideoPortfolio.mp4"
+import videoArrierePlan from "./../videos/00_VideoPortfolio.mp4";
 import './scss/Accueil.scss'; 
+
 
 export default function Accueil(props)
 {
@@ -12,7 +13,7 @@ export default function Accueil(props)
                 <source className="video" src={videoArrierePlan} type='video/mp4' />
             </video>
             <div className="pannel"></div>
-            <Menu/>
+            <MenuAccueil/>
             <EnteteAccueil/>
             <PiedDePageAccueil/>
         </div>

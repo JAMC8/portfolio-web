@@ -1,0 +1,22 @@
+.MenuSecondaire
+{
+    margin: 0;
+    background-color: #403F4C;
+    color: #EDEEF2;
+    .nom
+    {
+        margin: 0;
+        padding: 15px 20px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+
+    ul
+    {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

@@ -1,4 +1,4 @@
-import './Appli.scss';
+import './scss/Appli.scss';
 import Accueil from './Accueil';
 
 export default function Appli() {

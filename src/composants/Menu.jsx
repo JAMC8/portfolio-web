@@ -1,4 +1,4 @@
-import './Menu.scss';
+import './scss/Menu.scss';
 
 export default function Menu(props)
 {

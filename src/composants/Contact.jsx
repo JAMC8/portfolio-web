@@ -1,1 +1,1 @@
-import './Contact.scss';
+import './scss/Contact.scss';

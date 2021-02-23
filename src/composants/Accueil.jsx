@@ -2,7 +2,7 @@ import EnteteAccueil from "./EnteteAccueil";
 import Menu from "./Menu";
 import PiedDePageAccueil from "./PiedDePageAccueil";
 import videoArrierePlan from "./../videos/00_VideoPortfolio.mp4"
-import './Accueil.scss'; 
+import './scss/Accueil.scss'; 
 
 export default function Accueil(props)
 {

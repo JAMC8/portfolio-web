@@ -1,4 +1,4 @@
-import './PiedDePageAccueil.scss';
+import './scss/PiedDePageAccueil.scss';
 
 export default function PiedDePageAccueil(props)
 {

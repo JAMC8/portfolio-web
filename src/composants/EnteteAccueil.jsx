@@ -1,4 +1,4 @@
-import './EnteteAccueil.scss';
+import './scss/EnteteAccueil.scss';
 
 export default function EnteteAccueil(props)
 {

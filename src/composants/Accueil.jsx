@@ -1,5 +1,5 @@
 import EnteteAccueil from "./EnteteAccueil";
-import Menu from "./Menu";
+import Menu from "./MenuAccueil";
 import PiedDePageAccueil from "./PiedDePageAccueil";
 import videoArrierePlan from "./../videos/00_VideoPortfolio.mp4"
 import './scss/Accueil.scss'; 

@@ -32,6 +32,10 @@ export default function APropos(props)
                             <li>React</li>
                         </ul>
                     </div>
+                    <div className="telechargerCV">
+                        <h3>Mon CV:</h3>
+                        <button>Téléchrger CV</button>
+                    </div>
                 </div>
             </div>
         </div>

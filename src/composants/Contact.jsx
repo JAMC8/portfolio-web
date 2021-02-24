@@ -19,7 +19,7 @@ export default function Contact(props)
                     <div>
                         <h3>Téléphone</h3>
                         <a href="tel:5145016353">(514) 501-6353</a>
-                        <span>Cliquez pour appeler</span>
+                        <span>Cliquez pour appeler :)</span>
                     </div>            
                 </div>
             </div>

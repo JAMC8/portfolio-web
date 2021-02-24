@@ -8,7 +8,7 @@ import Contact from './Contact';
 export default function Appli() {
   return (
     <div className="Appli">
-        <section className="contenuPrincipale">
+        
           <Switch>
 
             <Route path="/" exact>
@@ -28,7 +28,7 @@ export default function Appli() {
             </Route>
 
           </Switch>
-        </section>
+        
     </div>
   );
 }

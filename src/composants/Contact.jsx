@@ -4,6 +4,16 @@ import MenuSecondaire from "./MenuSecondaire";
 export default function Contact(props)
 {
     return(
-        <MenuSecondaire />
+        <div>
+            <MenuSecondaire />
+            <div className="ContenuPrincipal">
+                <div className="Contact">
+                    <img className="logo"/>
+                    <h2 className="titrePage">Contact</h2>
+                    
+                    
+                </div>
+            </div>
+        </div>
     );
 }

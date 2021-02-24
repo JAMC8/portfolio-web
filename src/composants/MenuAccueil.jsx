@@ -7,10 +7,10 @@ export default function MenuAccueil(props)
     return(
         <div className="MenuAccueil">
             <ul className="nav">
-                <NavLink to="/projets" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><a>Programation de Jeux</a></li></NavLink>
-                <NavLink to="/projets" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><a>Programation Web</a></li></NavLink>
-                <NavLink to="/a-propos" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><a>À Propos</a></li></NavLink>
-                <NavLink to="/contact" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><a>Contact</a></li></NavLink>
+                <NavLink to="/projets" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><span>Programation de Jeux</span></li></NavLink>
+                <NavLink to="/projets" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><span>Programation Web</span></li></NavLink>
+                <NavLink to="/a-propos" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><span>À propos</span></li></NavLink>
+                <NavLink to="/contact" className="navLinkAccueil"><li><img src='images-logo/LogoNom.png'/><span>Contact</span></li></NavLink>
             </ul>
         </div>
     );

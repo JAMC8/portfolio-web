@@ -4,6 +4,13 @@ import MenuSecondaire from "./MenuSecondaire";
 export default function PageProjets(props)
 {
     return(
-        <MenuSecondaire />
+        <div>
+            <MenuSecondaire />
+            <div className="ContenuPrincipal">
+                <div className="PageProjets">
+                    
+                </div>
+            </div>
+        </div>
     );
 }

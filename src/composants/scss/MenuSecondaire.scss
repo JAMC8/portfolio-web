@@ -1,22 +1,53 @@
 .MenuSecondaire
 {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
+    height: 54px;
     background-color: #403F4C;
     color: #EDEEF2;
     .nom
     {
-        margin: 0;
-        padding: 15px 20px;
+        margin: auto 0 auto 20px;
         font-size: 20px;
         font-family: 'Montserrat';
     }
 
     ul
     {
-        margin: 0;
+        margin: auto 50px auto 0;
         list-style: none;
         padding: 0;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
+        font-family: 'Montserrat';
+        font-weight: normal; //bold
+
+        .navLinkSecondaire
+        {
+            margin: 0 20px;
+
+            &:hover
+            {
+                color: #2490f4;
+            }
+            
+            &:active
+            {
+                color: #2466f4;
+            }
+
+            li
+            {
+                font-size: 15px;    
+                
+            }
+        }
+
+        .navLinkActive
+        {
+            color: #2490f4;
+        }
+
     }
 }

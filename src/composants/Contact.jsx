@@ -4,7 +4,7 @@ import MenuSecondaire from "./MenuSecondaire";
 export default function Contact(props)
 {
     return(
-        <div>
+        <div className="foo">
             <MenuSecondaire />
             <div className="ContenuPrincipal">
                 <div className="Contact">

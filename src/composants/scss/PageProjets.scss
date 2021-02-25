@@ -1,0 +1,45 @@
+.PageProjets
+{
+    width: 90%;
+    margin: auto;
+    padding: 70px 15px 10px 15px;
+    font-family: 'Montserrat';
+
+    .nav
+    {
+        display: flex;        
+        align-items: baseline;
+
+        //justify-content: space-between;
+
+        //width: 420px;
+
+        flex-wrap: wrap;
+
+        h2
+        {
+            color: #403F4C;
+            font-weight: bold;
+        }
+
+        
+        h3
+        {
+           &:hover
+            {
+                color: #2490f4; // 403F4C or 2490f4
+            }
+        }
+
+        h2, span
+        {
+            margin-right: 15px;
+        }
+
+        span, h3
+        {
+            color: #bebebe;
+            font-size: 15px;
+        }
+    }
+}

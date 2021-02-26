@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 1,
+        "nom" : "Star Wars : Flight Fight",
+        "annee" : 2020,
+        "images" : [
+            "SW_FF_001",
+            "SW_FF_002",
+            "SW_FF_003",
+            "SW_FF_004",
+            "SW_FF_005",
+            "SW_FF_006"
+        ],
+        "videos" : [
+            "vid1"
+        ]
+    },
+
+    {
+        "id" : 2,
+        "nom" : "Test Subject",
+        "annee" : 2019,
+        "images" : [
+            "TS_001",
+            "TS_002"
+        ],
+        "videos" : [
+            "vid1"
+        ]
+    },
+
+    {
+        "id" : 3,
+        "nom" : "Le Labyrinthe",
+        "annee" : 2018,
+        "images" : [
+            "LL_001",
+            "LL_002",
+            "LL_003",
+            "LL_004",
+            "LL_005"
+        ],
+        "videos" : [
+            "vid1"
+        ]
+    }
+]

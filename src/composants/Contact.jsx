@@ -1,5 +1,6 @@
 import './scss/Contact.scss';
 import MenuSecondaire from "./MenuSecondaire";
+import logo from './../img/LogoNom.png'
 
 export default function Contact(props)
 {
@@ -20,7 +21,7 @@ export default function Contact(props)
                         </div>
                     </div>            
                     <div className="logo">
-                        <img src='images-logo/LogoNom.png'/>
+                        <img src={logo} alt="" />
                     </div>
                 </div>
             </div>

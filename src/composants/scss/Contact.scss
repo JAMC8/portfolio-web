@@ -1,41 +1,43 @@
 .Contact
 {
-    width: 70%;
+    width: 60%;
     margin: auto;
-    padding: 100px 15px 10px 15px;
+    padding: 25vh 0;
     font-family: 'Montserrat';
     color: #2490f4;
-
     h2, h3
     {
-        color: #403F4C;
+        color: #edeef2;
     }
 
+    .foo
+    {
+        float: left;
+    }
+    
     .logo
     {
         float: right;
-        width: 15%;
+        width: 120px;
         img
         {
             width: 100%;
 
         }
     }
-
+    
     .titrePage
     {
         font-size: 40px;
-        //float: left;
         clear: both;
+        margin-bottom: 70px;
     }
 
     .info
-    {
-        float: left;   
+    { 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        //margin: 50px auto;
 
         div
         {

@@ -8,7 +8,7 @@
     
     ul
     {
-        background-color: #edeef2 ;
+        background-color: #161b22 ; //EDEEF2
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -37,14 +37,14 @@
                 font-family: 'Montserrat';
                 font-weight: bolder;
                 text-transform: uppercase;
-                padding-left: 15px;
-                
+                color: #edeef2;
+
                 &:hover
                 {
                     color: #edeef2;
                     &:nth-child(1)
                     {                   
-                        background-image: linear-gradient(rgb(0,102,204),rgb(0,89,179));
+                        background-image: linear-gradient(rgb(0,102,204),rgb(0, 89, 179));
                     }
         
                     &:nth-child(2)
@@ -68,16 +68,18 @@
                 
                 }
     
-                img
+                .icon
                 {                
-                    width: 60px;
-                    padding: 20px;
+                    color: #edeef2;
+                    min-width: 35%;
+                    min-height: 35%;
+                    //padding-left: 20px;
                 }
     
                 span
                 {
                     margin: auto;
-                    font-size: 13px;
+                    font-size: 15px;
                 }
             }
         }

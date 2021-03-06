@@ -2,13 +2,14 @@
 {
     width: 90%;
     margin: auto;
-    padding: 70px 15px 10px 15px;
+    padding: 70px 15px 70px 15px;
     font-family: 'Montserrat';
 
     .nav
     {
         display: flex;        
         align-items: baseline;
+        margin-bottom: 55px;
 
         //justify-content: space-between;
 
@@ -18,16 +19,18 @@
 
         h2
         {
-            color: #403F4C;
+            color: #EDEEF2; 
             font-weight: bold;
         }
 
         
         h3
         {
-           &:hover
+            color: #edeef24f; 
+            font-size: 15px;
+            &:hover
             {
-                color: #2490f4; // 403F4C or 2490f4
+                color: #EDEEF2; 
             }
         }
 
@@ -36,19 +39,26 @@
             margin-right: 15px;
         }
 
-        span, h3
+        span
         {
-            color: #bebebe;
+            color: #044888;
             font-size: 15px;
         }
     }
 
-    ul
+    .projets
     {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        ul
+        {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+            //grid-gap: 1rem;
+            padding: 0;
+            margin: 0 auto;
+        }
+
     }
+
 }

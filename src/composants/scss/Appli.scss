@@ -1,6 +1,5 @@
 .Appli
 {
-    height: 100%;
     a, a:visited, a:active, a:link
     {
         color: inherit;
@@ -11,18 +10,6 @@
     h2, h3
     {
         margin: 0;
-    }
-
-    .foo
-    {
-        height: 100%;
-
-    }    
-    
-    .ContenuPrincipal
-    {
-        background-color: #EDEEF2;
-        height: 100%; //100vh
     }
     
 }

@@ -43,5 +43,16 @@
         "videos" : [
             "vid1"
         ]
+    },
+    {
+        "id" : 4,
+        "nom" : "Projet de fin d'études",
+        "annee" : 2021,
+        "images" : [
+            "photoAVenir"
+        ],
+        "videos" : [
+            "vid1"
+        ]
     }
 ]

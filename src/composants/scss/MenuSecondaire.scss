@@ -4,13 +4,15 @@
     justify-content: space-between;
     margin: 0;
     height: 54px;
-    background-color: #403F4C;
-    color: #EDEEF2;
+    background-color: #044888; //161b22
+    color: #EDEEF2; //403F4C
+    border-bottom: 3px solid #15283a;
     .nom
     {
         margin: auto 0 auto 20px;
         font-size: 20px;
         font-family: 'Montserrat';
+        
     }
 
     ul

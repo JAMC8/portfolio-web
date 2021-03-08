@@ -13,17 +13,7 @@ import React, { useState } from 'react';
 
 export default function Appli(props) {  
 
-  const [categorie, setCategorie] = useState();
-
-  function setJeu()
-  {
-    setCategorie("Jeu");
-  }
-
-  function setWeb()
-  {
-    setCategorie("Web");
-  }
+  
 
   return (
     <div className="Appli">
@@ -32,21 +22,21 @@ export default function Appli(props) {
 
             <Route path="/" exact>
               <Accueil/>
-              <MenuAccueil setJeu={setJeu} setWeb={setWeb}/>
+              <MenuAccueil/>
               <EnteteAccueil/>
               <PiedDePageAccueil/>
             </Route>
 
             <Route path="/projets">
-              <PagesSecondaires nomPage={PageProjets} categorie={categorie} setJeu={setJeu} setWeb={setWeb} />              
+              <PagesSecondaires nomPage={PageProjets}  />              
             </Route>
 
             <Route path="/a-propos" >
-              <PagesSecondaires nomPage={APropos} categorie="null" setJeu="null" setWeb="null"/>
+              <PagesSecondaires nomPage={APropos} />
             </Route>
 
             <Route path="/contact" >
-              <PagesSecondaires nomPage={Contact} categorie="null" setJeu="null" setWeb="null"/>
+              <PagesSecondaires nomPage={Contact} />
             </Route>
 
           </Switch>

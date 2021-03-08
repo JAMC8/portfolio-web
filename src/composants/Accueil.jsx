@@ -7,7 +7,7 @@ export default function Accueil(props)
     
     return(
         <div className="Accueil">
-            <video className="videoArrierePlan" autoPlay loop muted>
+            <video className="videoArrierePlan" playsInline autoPlay loop muted>
                 <source className="video" src={videoArrierePlan} type='video/mp4' />
             </video>
             <div className="pannel"></div>            

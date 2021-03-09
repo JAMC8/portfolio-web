@@ -21,7 +21,7 @@ export default function APropos(props)
                         <li>C#</li>
                         <li>PHP</li>
                         <li>HTML</li>
-                        <li>SCSS</li>
+                        <li>SASS</li>
                         <li>JS</li>
                     </ul>
                     <h3>- Framework</h3>

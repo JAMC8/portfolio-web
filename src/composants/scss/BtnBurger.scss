@@ -1,10 +1,10 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: fixed;
+    position: absolute;
     width: 36px;
-    height: 30px;
-    right: 36px;
-    top: 36px;
+    height: 28px;
+    right: 17px;
+    top: 17px;
     display: block;
     //background-color: #edeef2;
     & :focus
@@ -26,8 +26,6 @@
   
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
     & :focus
     {
         outline: none;

@@ -62,3 +62,19 @@
     }
 
 }
+
+@media(max-width: 950px)
+{
+    .Projet
+    {
+        img
+        {
+            filter: grayscale(0%);
+        }
+    
+        .panelInfo
+        {
+            visibility: visible;
+        }
+    }
+}

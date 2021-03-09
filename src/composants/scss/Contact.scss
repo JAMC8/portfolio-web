@@ -46,3 +46,22 @@
         }
     }
 }
+
+@media(max-width: 950px)
+{
+    .Contact
+    {
+        padding: 14vh 0;
+        .logo
+        {
+            float: none;
+            margin-left: 25%;
+            width: 100px;
+            
+            img
+            {
+                margin-top: 50px;
+            }
+        }
+    }
+}

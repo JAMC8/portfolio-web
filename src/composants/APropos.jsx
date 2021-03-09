@@ -7,9 +7,9 @@ export default function APropos(props)
         <>        
             <div className="APropos">
                 <h2 className="titrePage">À propos</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi eligendi quo necessitatibus assumenda nam dolores, sunt dolor dicta expedita nobis sed quae autem aut harum ratione quibusdam ipsum aliquid.</p>
-                <p>Similique possimus odio quam ad, deserunt iure necessitatibus libero distinctio facilis fugit quia eius, doloremque quo veritatis! Eaque vero numquam quibusdam molestiae, unde delectus architecto deserunt autem distinctio nemo qui!</p>
-                <p>Unde laboriosam odit quisquam, est porro aut asperiores modi nobis suscipit ab pariatur! Modi sunt enim voluptates quam fuga deleniti voluptatibus, libero at quasi animi! Reprehenderit mollitia libero ducimus saepe.</p>
+                <p>Je suis finissant en Techniques d'Intégration Multimédia au Collège de Maisonneuve. Je suis passionné par la programmation C#. Mon objectif est de devenir programmeur des jeux vidéo. Je veux faire la différence dans le milieu du jeu vidéo.</p>
+                <p>Mon principal champ d’intérêt est surtout par la programmation de jouabilité des jeux vidéo mais j'aime aussi la programmation Web back-end.</p>
+                <p>Mon plan d’action après avoir fini mon D.E.C en intégration multimédia c’est d’aller à l’université ETS dans le programme de Génie Logiciel. Pour mon futur je veux travailler pour des compagnies de jeux vidéos d'haute gamme comme Ubisoft ou EA.</p>
                 <div className="sectionHabiletes">
                     <h2>Mes habiletés</h2>
                     <h3>- Logiciel</h3>

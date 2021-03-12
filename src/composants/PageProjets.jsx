@@ -22,9 +22,11 @@ export default function PageProjets(props)
 
                     <Route path={path + "/prog-jeu"}>
                         <div className="nav">
-                            <h2>Programmation de Jeux</h2>
-                            <span>/</span>
-                            <NavLink to={url + "/prog-web"}><h3>Prog. Web</h3></NavLink>
+                            <div className="btns">
+                                <h2>Programmation de Jeux</h2>
+                                <span>/</span>
+                                <NavLink to={url + "/prog-web"}><h3>Prog. Web</h3></NavLink>
+                            </div>
                         </div>
                         <div className="projets">
                             <ul>
@@ -38,9 +40,11 @@ export default function PageProjets(props)
 
                     <Route path={path + "/prog-web"}>
                         <div className="nav">
-                            <h2>Programmation Web</h2>
-                            <span>/</span>
-                            <NavLink to={url + "/prog-jeu"}><h3>Prog. Jeu</h3></NavLink>
+                            <div className="btns">
+                                <h2>Programmation Web</h2>
+                                <span>/</span>
+                                <NavLink to={url + "/prog-jeu"}><h3>Prog. Jeu</h3></NavLink>
+                            </div>
                         </div>
                         <div className="projets">
                             <ul>

@@ -11,7 +11,7 @@ export default function MenuSecondaire(props)
     return(
         <>
             <div className="MenuSecondaire">
-                <h2 className="nom">Julian Maldonado</h2>
+                <NavLink to="/" className="nom" exact><h2>Julian Maldonado</h2></NavLink>
                 <div className="grandsEcrans">
                     <ul className="nav">
                         <NavLink to="/" className="navLinkSecondaire" activeClassName="navLinkActive" exact><li><span>Accueil</span></li></NavLink>

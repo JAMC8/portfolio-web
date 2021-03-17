@@ -1,48 +1,72 @@
-[
+{
+    "web1": 
     {
         "id" : 1,
         "nom" : "Exercice React : Signets",
         "annee" : 2021,
+        "desc" : "nada por ahora",
         "images" : [
             "photoAVenir"
         ],
         "videos" : [
             "vid1"
+        ],
+        "outils": [
+            "React",
+            "Firebase",
+            "SASS"
         ]
     },
 
+    "web2": 
     {
         "id" : 2,
-        "nom" : "Projet Web : Le Fol Espoir",
+        "nom" : "Projet web : Le Fol Espoir",
         "annee" : 2018,
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis metus lectus, eu maximus quam blandit sit amet. Aenean quis placerat elit, a fringilla urna. Sed pulvinar, lorem nec scelerisque mollis, nibh leo eleifend ipsum, vitae vestibulum felis diam at ante. Ut vel mauris ultrices, cursus lorem ac, scelerisque enim. Mauris non lacus metus. Duis scelerisque, risus nec iaculis dignissim, enim tellus maximus nisl, id sodales libero urna nec magna. Ut scelerisque nisl augue, at molestie erat interdum at.",
         "images" : [
             "FE_001"
         ],
         "videos" : [
-            "vid1"
+            
+        ],
+        "outils": [
+            "PHP",
+            "CSS"
         ]
     },
 
+    "web3":
     {
         "id" : 3,
-        "nom" : "À venir",
-        "annee" : 2017,
+        "nom" : "Portfolio Web",
+        "annee" : 2021,
+        "desc" : "nada por ahora",
         "images" : [
             "photoAVenir"
         ],
         "videos" : [
             "vid1"
+        ],
+        "outils": [
+            "React",
+            "SASS"
         ]
     },
+
+    "web4":
     {
         "id" : 4,
         "nom" : "À venir",
         "annee" : 2016,
+        "desc" : "nada por ahora",
         "images" : [
             "photoAVenir"
         ],
         "videos" : [
             "vid1"
+        ],
+        "outils": [
         ]
     }
-]
+}

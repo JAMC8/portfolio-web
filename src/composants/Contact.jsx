@@ -1,5 +1,4 @@
 import './scss/Contact.scss';
-import MenuSecondaire from "./MenuSecondaire";
 import logo from './../img/LogoNom.png'
 
 export default function Contact(props)
@@ -21,7 +20,7 @@ export default function Contact(props)
                         </div>
                         <div className="telephone">
                             <h3>Téléphone</h3>
-                            <a href="tel:5145016353">(514) 501-6353</a>
+                            <a>(514) ***-****</a>
                         </div>
                     </div>            
                 </div>

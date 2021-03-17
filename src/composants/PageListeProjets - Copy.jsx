@@ -1,21 +1,36 @@
-import './scss/PageProjets.scss';
+import './scss/PageListeProjets.scss';
 import Projet from "./Projet";
-import tabProjetsJeu from "./../data/projetsJeu.json";
-import tabProjetsWeb from "./../data/projetsWeb.json";
+import PageDuProjet from "./PageDuProjet";
+import tabProjetsJeu from "../data/projetsJeu.json";
+import tabProjetsWeb from "../data/projetsWeb.json";
 import {Switch, NavLink, useRouteMatch, Route} from 'react-router-dom';
+import {useState, useEffect} from 'react';
 
-export default function PageProjets(props)
+
+export default function PageListeProjets(props)
 {
     
     let tabParAnneeJeu = tabProjetsJeu.sort((projetA, projetB) => projetB.annee - projetA.annee);
     let tabParAnneeWeb = tabProjetsWeb.sort((projetA, projetB) => projetB.annee - projetA.annee);
     
     let{path, url} = useRouteMatch();
+    
+    /*let urlProjet = urlProjet = projet.nom.toLocaleLowerCase().replace(" : ", "-").replace(/\s/g, "-").replace("à", "a"),;*/
 
+    const idProjet = useState();
+    const [id, setId] = idProjet;
+
+    console.log("path: " + path + " url: " + url);
+
+    function SetIdProjet(testID)
+    {
+        setId(testID);
+        //console.log(path);
+    }
 
     return(
         <>     
-            <div className="PageProjets">
+            <div className="PageListeProjets">
                         
                 
                 <Switch>
@@ -30,9 +45,7 @@ export default function PageProjets(props)
                         </div>
                         <div className="projets">
                             <ul>
-                                {tabParAnneeJeu.map( projet => 
-                                    <Projet nom={projet.nom} annee={projet.annee} images={projet.images} key={projet.id} /> 
-                                )}  
+                                {tabParAnneeJeu.map( projet => <Projet {...projet} key={projet.id} onClick={SetIdProjet} /> )}  
                     
                             </ul>
                         </div>
@@ -48,13 +61,12 @@ export default function PageProjets(props)
                         </div>
                         <div className="projets">
                             <ul>
-                                {tabParAnneeWeb.map( projet => 
-                                    <Projet nom={projet.nom} annee={projet.annee} images={projet.images} key={projet.id} /> 
-                                )}  
+                                {tabParAnneeWeb.map( projet => <Projet {...projet} key={projet.id} onClick={SetIdProjet} /> )}  
                     
                             </ul>
                         </div>
-                    </Route>                 
+                    </Route>
+                                    
 
                 </Switch>
             </div>

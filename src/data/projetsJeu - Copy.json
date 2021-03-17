@@ -1,10 +1,8 @@
-{
-    "1":
+[
     {
         "id" : 1,
         "nom" : "Star Wars : Flight Fight",
         "annee" : 2020,
-        "desc" : "nada por ahora",
         "images" : [
             "SW_FF_001",
             "SW_FF_002",
@@ -15,39 +13,26 @@
         ],
         "videos" : [
             "vid1"
-        ],
-        "outils": [
-            "Unity",
-            "C#",
-            "Unet"
         ]
     },
 
-    "2":
     {
         "id" : 2,
         "nom" : "Test Subject",
         "annee" : 2019,
-        "desc" : "nada por ahora",
         "images" : [
             "TS_001",
             "TS_002"
         ],
         "videos" : [
             "vid1"
-        ],
-        "outils": [
-            "Unity",
-            "C#"
         ]
     },
 
-    "3":
     {
         "id" : 3,
         "nom" : "Le Labyrinthe",
         "annee" : 2018,
-        "desc" : "nada por ahora",
         "images" : [
             "LL_001",
             "LL_002",
@@ -57,29 +42,17 @@
         ],
         "videos" : [
             "vid1"
-        ],
-        "outils": [
-            "Unity",
-            "C#"
         ]
     },
-
-    "4":
     {
         "id" : 4,
         "nom" : "Projet de fin d'études",
         "annee" : 2021,
-        "desc" : "nada por ahora",
         "images" : [
             "photoAVenir"
         ],
         "videos" : [
             "vid1"
-        ],
-        "outils": [
-            "Unity",
-            "C#",
-            "MLAgents"
         ]
     }
-}
+]

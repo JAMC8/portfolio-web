@@ -1,9 +1,10 @@
 import './scss/Projet.scss';
 
+
 export default function Projet({nom, annee, images})
-{
-    return(
-        <li className="Projet">
+{    
+    return(             
+        <li className="Projet" >
             <img src={"/images-projets/" + images[0] + '.png'} alt="" />
             <div className="panelInfo">
                 <div className="info">
@@ -11,6 +12,6 @@ export default function Projet({nom, annee, images})
                     <p className="annee">{annee}</p>
                 </div>
             </div>
-        </li>
+        </li>            
     );
 }

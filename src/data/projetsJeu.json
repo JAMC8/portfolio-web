@@ -14,9 +14,6 @@
             "SW_FF_006"
         ],
         "videos" : [
-            "SW_FF_001",
-            "SW_FF_002",
-            "SW_FF_003"
         ],
         "outils": [
             "Unity",
@@ -32,11 +29,8 @@
         "annee" : 2019,
         "desc" : "nada por ahora",
         "images" : [
-            "TS_001",
-            "TS_002"
         ],
         "videos" : [
-            "TS_001"
         ],
         "outils": [
             "Unity",
@@ -58,7 +52,6 @@
             "LL_005"
         ],
         "videos" : [
-            "vid1"
         ],
         "outils": [
             "Unity",
@@ -76,7 +69,6 @@
             "photoAVenir"
         ],
         "videos" : [
-            "vid1"
         ],
         "outils": [
             "Unity",

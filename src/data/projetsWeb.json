@@ -8,9 +8,8 @@
         "images" : [
             "photoAVenir"
         ],
-        "videos" : [
-            "vid1"
-        ],
+        "videos" : [],
+        "url": "",
         "outils": [
             "React",
             "Firebase",
@@ -25,11 +24,18 @@
         "annee" : 2018,
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis metus lectus, eu maximus quam blandit sit amet. Aenean quis placerat elit, a fringilla urna. Sed pulvinar, lorem nec scelerisque mollis, nibh leo eleifend ipsum, vitae vestibulum felis diam at ante. Ut vel mauris ultrices, cursus lorem ac, scelerisque enim. Mauris non lacus metus. Duis scelerisque, risus nec iaculis dignissim, enim tellus maximus nisl, id sodales libero urna nec magna. Ut scelerisque nisl augue, at molestie erat interdum at.",
         "images" : [
-            "FE_001"
+            "FE_001",
+            "FE_002",
+            "FE_003",
+            "FE_004",
+            "FE_005",
+            "FE_006",
+            "FE_007"
         ],
         "videos" : [
-            
+            "FE_001"
         ],
+        "url": "",
         "outils": [
             "PHP",
             "CSS"
@@ -43,11 +49,15 @@
         "annee" : 2021,
         "desc" : "nada por ahora",
         "images" : [
-            "photoAVenir"
+            "PF_001",
+            "PF_002",
+            "PF_003",
+            "PF_004",
+            "PF_005",
+            "PF_006"
         ],
-        "videos" : [
-            "vid1"
-        ],
+        "videos" : [],
+        "url": "",
         "outils": [
             "React",
             "SASS"
@@ -57,16 +67,21 @@
     "web4":
     {
         "id" : 4,
-        "nom" : "À venir",
+        "nom" : "Création Web - Travail Pratique",
         "annee" : 2016,
         "desc" : "nada por ahora",
         "images" : [
-            "photoAVenir"
+            "CW_TP_001",
+            "CW_TP_002",
+            "CW_TP_003",
+            "CW_TP_004",
+            "CW_TP_005"            
         ],
-        "videos" : [
-            "vid1"
-        ],
+        "videos" : [],
+        "url": "",
         "outils": [
+            "HTML",
+            "CSS"
         ]
     }
 }

@@ -75,18 +75,18 @@ export default function PageDuProjet({tabProjetsJeu, tabProjetsWeb})
                     </div>
                 </div>
                 {
-                    sectionVideos ?
+                sectionVideos ?
 
-                    <div className="videos">
-                        <h3 className="">Videos</h3>
-                        <ul className="listeVids">
-                            {
-                                tableauProjets.videos.map( vid => <video src={"/images-projets/" + vid + '.mp4'} alt="" key={++id} />)                    
-                            }
-                        </ul>
-                    </div>
-                    :
-                    <br/> 
+                <div className="videos">
+                    <h3 className="">Videos</h3>
+                    <ul className="listeVids">
+                        {
+                            tableauProjets.videos.map( vid => <video src={"/videos-projets/" + vid + '.mp4'} alt="" key={++id} controls />)                    
+                        }
+                    </ul>
+                </div>
+                :
+                <br/> 
                 }
             </div>
 

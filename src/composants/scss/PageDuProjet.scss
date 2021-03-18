@@ -70,7 +70,6 @@
                 padding: 0;
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                grid-template-rows: repeat(auto-fit, minmax(277px, 1fr));
                 row-gap: 30px;
                 column-gap: 30px;
                 width: 90%;
@@ -142,6 +141,31 @@
             }
 
         }
+
+        .videos
+        {
+            h3
+            {
+                font-size: 30px;
+            }
+
+            .listeVids
+            {
+                display: flex;
+                flex-direction: column;
+                max-width: 90%;
+                padding: 0;
+                margin: auto;
+
+                video
+                {
+                    max-width: 90%;
+                    margin: 30px auto;
+                    border-radius: 10px;
+                    border: 2px solid #15283a;
+                }
+            }
+        }
         
     }
 }
@@ -174,14 +198,47 @@
         {      
             .images
             {
+                h3
+                {
+                    font-size: 20px;
+                }
+
+                .listeImgs
+                {
+                    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+
+                    img
+                    {
+                        height: 200px;
+                    }
+                }
+
                 .modal
                 {
                     .modal-content 
                     {
-                        width: 100%;
+                        max-width: 90%;
                     }
                 }
 
+            }
+
+            .videos
+            {     
+                h3
+                {
+                    font-size: 20px;
+                }           
+                .listeVids
+                {
+                    video
+                    {
+                        max-width: 90%;
+                        margin: 10px auto;
+                        border-radius: 10px;
+                        border: 2px solid #15283a;
+                    }
+                }
             }
         }
 
@@ -213,8 +270,11 @@
                 {
                     img
                     {
+                        opacity: 50%;
+                        cursor: pointer;
                         &:hover
                         {
+                            opacity: 100%;
                             filter: drop-shadow(0px 0 20px #0066cc);
                             border: none;
                         }

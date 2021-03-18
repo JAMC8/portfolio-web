@@ -7,11 +7,9 @@ export default function PageListeProjets({infoPage, categorie})
 {
     let{url} = useRouteMatch();
 
-   //let objProjets = infoPage.tableauProjets;
-
-    //console.log(infoPage.tableauProjets);
-
     let tableauProjets = Object.values(infoPage.tableauProjets)
+
+    tableauProjets = tableauProjets.sort((projetA, projetB) => projetB.annee - projetA.annee);
 
     return(
         <>     

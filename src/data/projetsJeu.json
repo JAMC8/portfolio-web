@@ -14,7 +14,9 @@
             "SW_FF_006"
         ],
         "videos" : [
-            "vid1"
+            "SW_FF_001",
+            "SW_FF_002",
+            "SW_FF_003"
         ],
         "outils": [
             "Unity",
@@ -34,7 +36,7 @@
             "TS_002"
         ],
         "videos" : [
-            "vid1"
+            "TS_001"
         ],
         "outils": [
             "Unity",

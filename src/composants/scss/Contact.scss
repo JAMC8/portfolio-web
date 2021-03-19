@@ -19,7 +19,7 @@
         margin: auto;
         //padding-top: 50%;
         
-        .logoHaut
+        .logo-haut
         {
             float: right;
             width: 120px;
@@ -28,13 +28,34 @@
             {
                 width: 100%;
             }
+
+            .reseaux-sociaux-haut
+            {
+                display: flex;
+                justify-content: center;
+                color: #edeef2;
+                position: relative;
+                top: 100px;
+                right: 25px;
+                a
+                {
+                    margin: 0 10px;
+
+                    svg
+                    {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
         }
 
+        
         
         .texte
         {
             margin: 30px;
-            .titrePage
+            .titre-page
             {
                 font-size: 40px;
                 //clear: both;
@@ -55,9 +76,26 @@
 
         }
         
-        .logoBas
+        .logo-bas
         {
             display: none;
+            .reseaux-sociaux-bas
+            {
+                display: flex;
+                justify-content: center;
+                color: #edeef2;
+
+                a
+                {
+                    margin: 0 10px;
+
+                    svg
+                    {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
         }
 
     }
@@ -75,25 +113,27 @@
         {
             width: 80%;
 
-            .logoHaut
+            .logo-haut
             {
                 display: none;
             }
             
             .texte
             {
-                .titrePage
+                .titre-page
                 {
                     margin-bottom: 30px;
                 }
             }
             
-            .logoBas
+            .logo-bas
             {
                 display: block;
                 float: none;
                 margin: auto;
-                width: 100px;   
+                width: 100px;  
+                
+                
 
                 img
                 {

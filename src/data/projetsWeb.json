@@ -2,18 +2,24 @@
     "web1": 
     {
         "id" : 1,
-        "nom" : "Exercice React : Signets",
+        "nom" : "Projet : Portfolio Web",
         "annee" : 2021,
-        "desc" : "nada por ahora",
+        "desc" : "Le projet Porfolio Web est un projet de fin d'études dans lequel nous devions intégrer toutes les connaissances aquises dans le cadre de notre programme dans un site web, plus précisement, notre Portfolio Web. J'ai decidé de le faire à l'aide du cadriciel (framework) React que nous avons appris à utiliser en dernière session.",
         "images" : [
-            "photoAVenir"
+            "PF_001",
+            "PF_002",
+            "PF_003",
+            "PF_004",
+            "PF_005",
+            "PF_006"
         ],
         "videos" : [],
         "url": "",
-        "outils": [
+        "technos": [
             "React",
-            "Firebase",
-            "SASS"
+            "JavaScript",
+            "SASS",
+            "HTML"
         ]
     },
 
@@ -22,7 +28,7 @@
         "id" : 2,
         "nom" : "Projet web : Le Fol Espoir",
         "annee" : 2018,
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis metus lectus, eu maximus quam blandit sit amet. Aenean quis placerat elit, a fringilla urna. Sed pulvinar, lorem nec scelerisque mollis, nibh leo eleifend ipsum, vitae vestibulum felis diam at ante. Ut vel mauris ultrices, cursus lorem ac, scelerisque enim. Mauris non lacus metus. Duis scelerisque, risus nec iaculis dignissim, enim tellus maximus nisl, id sodales libero urna nec magna. Ut scelerisque nisl augue, at molestie erat interdum at.",
+        "desc" : "Pour le cours de Projet web nous avions la tâche de refaire le site web du département d'arts, lettres et communication - option littérature appelé Le Fol Espoir. À l'aide de mes co-équipières Laurence Dodier, Kathleen Francis et Carolanne, nous avons conçut le site Web en PHP. Le site web a une page d'accueil qui affiche les œuvres plus récents, une page pour tous les projets, une page 'À propos' et une page pour soummettre une nouvelle œuvre. En plus, nous avons aussi fait le côté 'Admin' pour accepter, refuser, modifier, supprimer ou ajouter des nouvelles œuvres. Le design du logo je l'ai fait avec Illustrator.",
         "images" : [
             "FE_001",
             "FE_002",
@@ -35,40 +41,39 @@
         "videos" : [
         ],
         "url": "",
-        "outils": [
+        "technos": [
             "PHP",
-            "CSS"
+            "CSS",
+            "HTML"
         ]
     },
 
     "web3":
     {
         "id" : 3,
-        "nom" : "Portfolio Web",
+        "nom" : "Exercices React",
         "annee" : 2021,
-        "desc" : "nada por ahora",
+        "desc" : "Les exercice React sont des travaux de class que nous avons développé pour apprendre à utiliser le cadriciel (framework) React et l'API de Firebase pour le cours de Programmation et Veille technologique. Nous avons utilisé react router pour naviguer dans le site web et firebase pour la base de données.",
         "images" : [
-            "PF_001",
-            "PF_002",
-            "PF_003",
-            "PF_004",
-            "PF_005",
-            "PF_006"
+            "photoAVenir"
         ],
         "videos" : [],
         "url": "",
-        "outils": [
+        "technos": [
             "React",
+            "Firebase",
+            "JavaScript",
             "SASS"
         ]
-    },
+    }
+    ,
 
     "web4":
     {
         "id" : 4,
         "nom" : "Création Web - Travail Pratique",
         "annee" : 2016,
-        "desc" : "nada por ahora",
+        "desc" : "Pour la fin de la première session on nous a demandé de faire un site web en HTML et CSS pour évaluer les connaissances apprises dans le cours. Je me suis basé sur un site qui contiendrait l'information de tous les concerts qui se tiendront à Montréal.",
         "images" : [
             "CW_TP_001",
             "CW_TP_002",
@@ -78,7 +83,7 @@
         ],
         "videos" : [],
         "url": "",
-        "outils": [
+        "technos": [
             "HTML",
             "CSS"
         ]

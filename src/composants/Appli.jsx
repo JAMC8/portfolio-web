@@ -1,5 +1,5 @@
 import './scss/Appli.scss';
-import {Switch , Route} from 'react-router-dom';
+import {Switch , Route, NavLink} from 'react-router-dom';
 import Accueil from './Accueil';
 import PagesSecondaires from './PagesSecondaires';
 import PageListeProjets from './PageListeProjets';
@@ -17,6 +17,8 @@ import tabProjetsWeb from "../data/projetsWeb.json";
 
 export default function Appli(props) {  
 
+  const annee = new Date().getFullYear();
+
 
   return (
     <div className="Appli">
@@ -31,23 +33,28 @@ export default function Appli(props) {
             </Route>
 
             <Route path="/projets/prog-jeu" exact>
-              <PagesSecondaires nomPage={PageListeProjets} tabProjets={tabProjetsJeu} />              
+              <PagesSecondaires nomPage={PageListeProjets} tabProjets={tabProjetsJeu} />
+              <footer className="pied-de-page">&copy; {annee} Julian Maldonado</footer>            
             </Route>
 
             <Route path="/projets/prog-web" exact>
-              <PagesSecondaires nomPage={PageListeProjets} tabProjets={tabProjetsWeb} />              
+              <PagesSecondaires nomPage={PageListeProjets} tabProjets={tabProjetsWeb} />
+              <footer className="pied-de-page">&copy; {annee} Julian Maldonado</footer>             
             </Route>       
 
             <Route path="/a-propos" >
               <PagesSecondaires nomPage={APropos} />
+              <footer className="pied-de-page">&copy; {annee} Julian Maldonado</footer>
             </Route>
 
             <Route path="/contact" >
               <PagesSecondaires nomPage={Contact} />
+              <footer className="pied-de-page">&copy; {annee} Julian Maldonado</footer>
             </Route>
 
             <Route path={"/projets/:nomCategorie/:idProjet"} exact>
-              <PagesSecondaires  nomPage={PageDuProjet} tabProjetsJeu={tabProjetsJeu} tabProjetsWeb={tabProjetsWeb} />              
+              <PagesSecondaires  nomPage={PageDuProjet} tabProjetsJeu={tabProjetsJeu} tabProjetsWeb={tabProjetsWeb} />
+              <footer className="pied-de-page"><NavLink to="/">&copy; {annee} Julian Maldonado</NavLink></footer>            
             </Route>
         
 

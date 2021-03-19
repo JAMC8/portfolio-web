@@ -38,6 +38,7 @@ export default function PagesSecondaires({nomPage, tabProjets, tabProjetsJeu, ta
             <section className="contenuPrincipal">
                 <Contenu infoPage={infoPage} categorie={categorie} tabProjetsJeu={tabProjetsJeu} tabProjetsWeb={tabProjetsWeb}/>
             </section>
+            
         </div>
         
     );

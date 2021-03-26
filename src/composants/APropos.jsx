@@ -96,11 +96,11 @@ export default function APropos(props)
                 <br />
                 <br />
 
-                <div className="telechargerCV">
+                {/*<div className="telechargerCV">
                     <h3>Mon CV:</h3>
                     <button>Téléchrger CV</button>
                     <span>(Pas encore fonctionel)</span>
-                </div>
+                </div>*/}
 
             </div>
         </>

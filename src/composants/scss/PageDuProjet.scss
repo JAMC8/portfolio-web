@@ -225,6 +225,10 @@
 {
     .PageDuProjet
     {
+        .btn-retour
+        {
+            right: 0;
+        }
         .titre-projet
         {
             font-size: 25px;
@@ -234,6 +238,7 @@
         {
             .description
             {
+                text-align: center;
                 p
                 {
                     font-size: 18px;
@@ -293,6 +298,7 @@
 
         .liste-technos
         {
+            padding-left: 30px;
             grid-template-columns: repeat(auto-fit, minmax(87px, 1fr));
         }
     }

@@ -4,7 +4,9 @@
         "id" : 1,
         "nom" : "Projet : Portfolio Web",
         "annee" : 2021,
-        "desc" : "Le projet Porfolio Web est un projet de fin d'études dans lequel nous devions intégrer toutes les connaissances aquises dans le cadre de notre programme dans un site web, plus précisement, notre Portfolio Web. J'ai decidé de le faire à l'aide du cadriciel (framework) React que nous avons appris à utiliser en dernière session.",
+        "desc" : [
+            "Le projet Porfolio Web est un projet de fin d'études dans lequel nous devions intégrer toutes les connaissances aquises dans le cadre de notre programme dans un site web, plus précisement, notre Portfolio Web. J'ai decidé de le faire à l'aide du cadriciel (framework) React que nous avons appris à utiliser en dernière session."
+        ],
         "images" : [
             "PF_001",
             "PF_002",
@@ -20,6 +22,9 @@
             "JavaScript",
             "SASS",
             "HTML"
+        ],
+        "sites": [
+            
         ]
     },
 
@@ -28,7 +33,9 @@
         "id" : 2,
         "nom" : "Projet web : Le Fol Espoir",
         "annee" : 2018,
-        "desc" : "Pour le cours de Projet web nous avions la tâche de refaire le site web du département d'arts, lettres et communication - option littérature appelé Le Fol Espoir. À l'aide de mes co-équipières Laurence Dodier, Kathleen Francis et Carolanne, nous avons conçut le site Web en PHP. Le site web a une page d'accueil qui affiche les œuvres plus récents, une page pour tous les projets, une page 'À propos' et une page pour soummettre une nouvelle œuvre. En plus, nous avons aussi fait le côté 'Admin' pour accepter, refuser, modifier, supprimer ou ajouter des nouvelles œuvres. Le design du logo je l'ai fait avec Illustrator.",
+        "desc" : [
+            "Pour le cours de Projet web nous avions la tâche de refaire le site web du département d'arts, lettres et communication - option littérature appelé Le Fol Espoir. À l'aide de mes co-équipières Laurence Dodier, Kathleen Francis et Carolanne, nous avons conçut le site Web en PHP. Le site web a une page d'accueil qui affiche les œuvres plus récents, une page pour tous les projets, une page 'À propos' et une page pour soummettre une nouvelle œuvre. En plus, nous avons aussi fait le côté 'Admin' pour accepter, refuser, modifier, supprimer ou ajouter des nouvelles œuvres. Le design du logo je l'ai fait avec Illustrator."
+        ],
         "images" : [
             "FE_001",
             "FE_002",
@@ -39,12 +46,16 @@
             "FE_007"
         ],
         "videos" : [
+            "FE_001"
         ],
         "url": "",
         "technos": [
             "PHP",
             "CSS",
             "HTML"
+        ],
+        "sites": [
+            
         ]
     },
 
@@ -53,9 +64,19 @@
         "id" : 3,
         "nom" : "Exercices React",
         "annee" : 2021,
-        "desc" : "Les exercice React sont des travaux de class que nous avons développé pour apprendre à utiliser le cadriciel (framework) React et l'API de Firebase pour le cours de Programmation et Veille technologique. Nous avons utilisé react router pour naviguer dans le site web et firebase pour la base de données.",
+        "desc" : [
+            "Les exercice React sont des travaux de class que nous avons développé pour apprendre à utiliser le cadriciel (framework) React et l'API de Firebase pour le cours de Programmation et Veille technologique. Nous avons utilisé react router pour naviguer dans le site web et firebase pour la base de données.",
+            "Les images ont toutes été prises d'internet."
+        ],
         "images" : [
-            "photoAVenir"
+            "ER_001",
+            "ER_002",
+            "ER_003",
+            "ER_004",
+            "ER_005",
+            "ER_006",
+            "ER_007",
+            "ER_008"
         ],
         "videos" : [],
         "url": "",
@@ -64,6 +85,9 @@
             "Firebase",
             "JavaScript",
             "SASS"
+        ],
+        "sites": [
+
         ]
     }
     ,
@@ -73,7 +97,9 @@
         "id" : 4,
         "nom" : "Création Web - Travail Pratique",
         "annee" : 2016,
-        "desc" : "Pour la fin de la première session on nous a demandé de faire un site web en HTML et CSS pour évaluer les connaissances apprises dans le cours. Je me suis basé sur un site qui contiendrait l'information de tous les concerts qui se tiendront à Montréal.",
+        "desc" : [
+            "Pour la fin de la première session on nous a demandé de faire un site web en HTML et CSS pour évaluer les connaissances apprises dans le cours. Je me suis basé sur un site qui contiendrait l'information de tous les concerts qui se tiendront à Montréal."
+        ],
         "images" : [
             "CW_TP_001",
             "CW_TP_002",
@@ -86,6 +112,9 @@
         "technos": [
             "HTML",
             "CSS"
+        ],
+        "sites": [
+            
         ]
     }
 }

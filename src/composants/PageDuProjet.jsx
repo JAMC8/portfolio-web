@@ -79,7 +79,9 @@ export default function PageDuProjet({tabProjetsJeu, tabProjetsWeb})
             
             <div className="haut-de-page">
                 <div className="description">
-                    <p >{tableauProjets.desc}</p>
+                    {
+                        tableauProjets.desc.map( texte => <p key={++id}>{texte}</p>)
+                    }
                 </div>
                 <div className="img-haut-page">
                     <img  src={"/images-projets/" + tableauProjets.images[0] + '.png'} alt="" />

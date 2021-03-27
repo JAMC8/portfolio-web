@@ -5,7 +5,7 @@
         "nom" : "Projet : Portfolio Web",
         "annee" : 2021,
         "desc" : [
-            "Le projet Porfolio Web est un projet de fin d'études dans lequel nous devions intégrer toutes les connaissances aquises dans le cadre de notre programme dans un site web, plus précisement, notre Portfolio Web. J'ai decidé de le faire à l'aide du cadriciel (framework) React que nous avons appris à utiliser en dernière session."
+            "Le projet Porfolio Web est un projet de fin d'études dans lequel nous devions intégrer toutes les connaissances acquises dans le cadre de notre programme dans un site web, plus précisément, notre Portfolio Web. J'ai décidé de le faire à l'aide du cadriciel (framework) React que nous avons appris à utiliser en dernière session."
         ],
         "images" : [
             "PF_001",
@@ -34,7 +34,7 @@
         "nom" : "Projet web : Le Fol Espoir",
         "annee" : 2018,
         "desc" : [
-            "Pour le cours de Projet web nous avions la tâche de refaire le site web du département d'arts, lettres et communication - option littérature appelé Le Fol Espoir. À l'aide de mes co-équipières Laurence Dodier, Kathleen Francis et Carolanne, nous avons conçut le site Web en PHP. Le site web a une page d'accueil qui affiche les œuvres plus récents, une page pour tous les projets, une page 'À propos' et une page pour soummettre une nouvelle œuvre. En plus, nous avons aussi fait le côté 'Admin' pour accepter, refuser, modifier, supprimer ou ajouter des nouvelles œuvres. Le design du logo je l'ai fait avec Illustrator."
+            "Pour le cours de Projet web nous avions la tâche de refaire le site web du département d'arts, lettres et communication - option littérature appelé Le Fol Espoir. À l'aide de mes coéquipières Laurence Dodier, Kathleen Francis et Carolanne, nous avons conçu le site Web en PHP. Le site web a une page d'accueil qui affiche les œuvres plus récents, une page pour tous les projets, une page 'À propos' et une page pour soumettre une nouvelle œuvre. En plus, nous avons aussi fait le côté 'Admin' pour accepter, refuser, modifier, supprimer ou ajouter des nouvelles œuvres. Le design du logo je l'ai fait avec Illustrator."
         ],
         "images" : [
             "FE_001",
@@ -65,7 +65,7 @@
         "nom" : "Exercices React",
         "annee" : 2021,
         "desc" : [
-            "Les exercice React sont des travaux de class que nous avons développé pour apprendre à utiliser le cadriciel (framework) React et l'API de Firebase pour le cours de Programmation et Veille technologique. Nous avons utilisé react router pour naviguer dans le site web et firebase pour la base de données.",
+            "Les exercices React sont des travaux de classe que nous avons développés pour apprendre à utiliser le cadriciel (framework) React et l'API de Firebase pour le cours de Programmation et Veille technologique. Nous avons utilisé react router pour naviguer dans le site web et firebase pour la base de données.",
             "Les images ont toutes été prises d'internet."
         ],
         "images" : [

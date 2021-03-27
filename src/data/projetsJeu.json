@@ -5,8 +5,8 @@
         "nom" : "Star Wars : Flight Fight",
         "annee" : 2020,
         "desc" : [
-            "Star Wars : Flight Fight est un projet personnel que j'ai decidé de faire pour apprendre à faire un jeu multijoueur dans Unity en utilisant Unity Multiplayer Networking. Il est basé sur l'universe de stars wars. Tout le côté programmation a été fait par moi-même avec et à l'aide de documentation et tutoriels que j'ai trouvé. Tout le design du UI a été fait par moi-même. Seulement les objets en 3D, les images des vaisseaux et la musique ont été téléchargés d'internet avec droits d'usage. Le jeu consiste à controller un vaisseau et trouver les autres joueurs pour les détruire.",
-            "Touts les droits de Star Wars sont réserves à Lucasfilm Ltd."
+            "Star Wars : Flight Fight est un projet personnel que j'ai décidé de faire pour apprendre à faire un jeu multijoueur dans Unity en utilisant Unity Multiplayer Networking. Il est basé sur l'universe de stars wars. Tout le côté programmation a été fait par moi-même avec et à l'aide de documentation et tutoriels que j'ai trouvé. Tout le design du UI a été fait par moi-même. Seuls les objets en 3D, les images des vaisseaux et la musique ont été téléchargés d'internet avec droits d'usage. Le jeu consiste à contrôler un vaisseau et trouver les autres joueurs pour les détruire.",
+            "Tous les droits de Star Wars sont réservés à Lucasfilm Ltd."
         ],
         "images" : [
             "SW_FF_001",
@@ -38,7 +38,7 @@
         "annee" : 2019,
         "desc" : [
             "Test Subject est un jeu de suspense crée à l'aide des mes co-équipiers Kathleen Francis, Zackary Forget et Jordan Lapointe pour le cours de Développement de jeu pour la session d'hiver 2019. Nous avons planifié un horaire et nous avons eu des réunions chaque début du cours pour discuter des tâches et des obstacles et des tâches suivantes à faire.",
-            "Le jeu se situe dans un hotêl abandonné où il se passe de l'activité paranormal. Le but du jeu est de trouver des clés pour ouvrir les portes des chambres et chercher des pièces d'un casse tête pour ouvrir la porte principale et ainsi pourvoir sortir du batîment."
+            "Le jeu se situe dans un hôtel abandonné où il se passe de l'activité paranormale. Le but du jeu est de trouver des clés pour ouvrir les portes des chambres et chercher des pièces d'un casse-tête pour ouvrir la porte principale et ainsi pouvoir sortir du bâtiment."
         ],
         "images" : [
             "TS_001",
@@ -62,7 +62,7 @@
         "nom" : "Le Labyrinthe",
         "annee" : 2018,
         "desc" : [
-            "Le Labyrinthe est en jeu en 3ème personne que j'ai crée pour le cours de Programmation de jeu. Le joueur est dans un labyrinthe formé d'arbres et murs et Il doit trouver la forme de sortir de celui-ci. Le joueur pourra trouver une lampe de poche et une pistolet avec un nombre limité de balles au début du jeu. Pendant qu'il cherche la sortie des zombies le poursuivront pour le manger. Il y a 3 types de zombies differents, celui qui marche, celui qui cours et le géant. Le joueur pourra trouver des cartouches tout au long du jeu qui auront entre 0-7 balles aléatoirement."
+            "Le Labyrinthe est en jeu en 3ème personne que j'ai créé pour le cours de Programmation de jeu. Le joueur est dans un labyrinthe formé d'arbres et murs et Il doit trouver la forme de sortir de celui-ci. Le joueur pourra trouver une lampe de poche et un pistolet avec un nombre limité de balles au début du jeu. Pendant qu'il cherche la sortie des zombies le poursuivront pour le manger. Il y a 3 types de zombies différents, celui qui marche, celui qui cours et le géant. Le joueur pourra trouver des cartouches tout au long du jeu qui auront entre 0-7 balles aléatoirement."
         ],
         "images" : [
             "LL_001",
@@ -88,9 +88,9 @@
         "nom" : "Projet : ML Agents Unity",
         "annee" : 2021,
         "desc" : [
-            "Ceci est un jeu que j'ai réalisé comme projet de fin d'études. Pour le projet, nous devions apprendre par nous-mêmes une nouvelle technologie de notre intérêt que nous n'avions pas eu la possibilité d'explorer dans le cadre de notre programme. À l'aide de la documentation de Unity sur Github et des tutoriels, j'ai appris à entraîner de l'intelligence artificielle avec le paquet ML Agents de Unity.",
-            "J'ai crée plusieurs prototypes pour tester différentes connaissances à fur et à mesure que je les apprennais.",
-            "Pour mon résultat final entraîné 3 cerveaux pour que chacun complète une section differente du parcours et ainsi les 3 ensemble traversent le parcours au complete. L'agent doit premièrement aller vers la voiture et monter, après la voiture doit traverser un circuit avec des obstacles et à la fin l'agent doit debarquer de la voiture pour passer par la dernière étape du parcours où il doit sauter des obstacles et arriver au but."            
+            "Ceci est un jeu que j'ai réalisé comme projet de fin d'études. Pour le projet, nous devions apprendre par nous-mêmes une nouvelle technologie de notre intérêt que nous n'avions pas eu la possibilité d'explorer dans le cadre de notre programme. À l'aide de la documentation d'Unity sur GitHub et des tutoriels, j'ai appris à entraîner de l'intelligence artificielle avec le paquet ML Agents d'Unity.",
+            "J'ai créé plusieurs prototypes pour tester différentes connaissances à fur et à mesure que je les apprenais.",
+            "Pour mon résultat final entraîné 3 cerveaux pour que chacun complète une section différente du parcours et ainsi les 3 ensemble traversent le parcours au complet. L'agent doit premièrement aller vers la voiture et monter, après la voiture doit traverser un circuit avec des obstacles et à la fin l'agent doit débarquer de la voiture pour passer par la dernière étape du parcours où il doit sauter des obstacles et arriver au but."            
         ],
         "images" : [
             "MLA_001",

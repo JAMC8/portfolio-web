@@ -1,0 +1,358 @@
+.PageDuProjet
+{
+    width: 90%;
+    margin: auto;
+    padding: 50px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0b6cc7; //403F4C
+
+    .btn-retour
+    {
+        position: relative;
+        bottom: 22px;
+        right: 22px;
+        border: 2px solid #044888;
+        background-color: #044888;
+        color: #EDEEF2;
+        padding: 5px 25px;
+        border-radius: 50px 15px 15px 50px;
+        font-weight: bold;
+        &:focus
+        {
+            outline: none;
+        }
+    }
+
+    .titre-projet
+    {
+        text-align: left;
+        font-size: 40px;
+    }
+    h2, h3
+    {
+        color: #EDEEF2;
+    }
+
+    .haut-de-page
+    {
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr;        
+
+        .description
+        {
+            border-radius: 10px;
+            color: #EDEEF2;
+            background-color: #15283a;
+            text-align: justify;
+
+            p
+            {
+                margin: 30px;
+                font-size: 20px;
+                line-height: 40px;
+            }
+    
+        }
+
+        .img-haut-page
+        {       
+            display: none;     
+            text-align: center;
+            overflow: hidden;
+            border-radius: 10px;
+    
+            img
+            {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    
+        }
+    }
+
+    .medias
+    {
+        .images
+        {
+            h3
+            {
+                font-size: 30px;
+            }
+            
+            .liste-imgs
+            {
+                padding: 0;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                row-gap: 30px;
+                column-gap: 30px;
+                width: 90%;
+                margin: 30px auto;
+    
+                img
+                {
+                    width: 100%;
+                    border: 2px solid #15283a;
+                    border-radius: 10px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+
+            .modal
+            {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: #15283a; /* Fallback color */
+                background-color: #15283ae7; /* Black w/ opacity */
+
+                .close 
+                {
+                    position: absolute;
+                    top: 15px;
+                    right: 35px;
+                    color: #f1f1f1;
+                    font-size: 40px;
+                    font-weight: bold;
+                    transition: 0.3s;
+
+                    &:hover, &:focus
+                   {
+                        color: #bbb;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .modal-content 
+                {
+                    margin: auto;
+                    display: block;
+                    max-width: 80%;
+                    max-height: 80%;
+                }
+
+                .caption 
+                {
+                    margin: auto;
+                    display: block;
+                    width: 80%;
+                    max-width: 700px;
+                    text-align: center;
+                    color: #ccc;
+                    padding: 10px 0;
+                    height: 150px;
+                }
+            }
+
+        }
+
+        .videos
+        {
+            h3
+            {
+                font-size: 30px;
+            }
+
+            .liste-vids
+            {
+                display: flex;
+                flex-direction: column;
+                max-width: 90%;
+                padding: 0;
+                margin: auto;
+
+                video
+                {
+                    max-width: 90%;
+                    margin: 30px auto;
+                    border-radius: 10px;
+                    border: 2px solid #15283a;
+                }
+            }
+        }        
+    }
+
+    .liste-technos
+    {
+        padding-left: 15px;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(87px, 0.1fr));
+        column-gap: 30px;
+
+        li
+        {
+            list-style: none;
+            text-align: center;
+            margin: 15px 0px;
+            width: 80px;
+
+            .divLogo
+            {
+                border-radius: 30px 20px 30px 20px;
+                border-radius: 50px;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80px;
+                height: 80px;
+                color: #EDEEF2;                    
+                background-color: #044888;
+                margin-bottom: 10px;                   
+                
+                .logo-unity
+                {
+                    padding-right: 5.5px;
+                }    
+            }                    
+        }
+    }
+}
+
+
+// Petits écrans
+@media(max-width: 950px)
+{
+    .PageDuProjet
+    {
+        .btn-retour
+        {
+            right: 0;
+        }
+        .titre-projet
+        {
+            font-size: 25px;
+        }
+
+        .haut-de-page
+        {
+            .description
+            {
+                text-align: center;
+                p
+                {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+
+        }
+
+        .medias
+        {      
+            .images
+            {
+                h3
+                {
+                    font-size: 20px;
+                }
+
+                .liste-imgs
+                {
+                    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+
+                    img
+                    {
+                        height: 200px;
+                    }
+                }
+
+                .modal
+                {
+                    .modal-content 
+                    {
+                        max-width: 90%;
+                    }
+                }
+
+            }
+
+            .videos
+            {     
+                h3
+                {
+                    font-size: 20px;
+                }           
+                .liste-vids
+                {
+                    video
+                    {
+                        max-width: 90%;
+                        margin: 10px auto;
+                        border-radius: 10px;
+                        border: 2px solid #15283a;
+                    }
+                }
+            }
+        }
+
+        .liste-technos
+        {
+            padding-left: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(87px, 1fr));
+        }
+    }
+}
+
+
+// Grands écrans
+@media(min-width: 950px)
+{
+    .PageDuProjet
+    {
+        .btn-retour
+        {
+            background-color: transparent;
+            font-size: 15px;
+
+            &:hover
+            {
+                background-color: #044888;
+            }
+        }
+
+        .haut-de-page
+        {
+            grid-template-columns: 3fr 1fr;
+            column-gap: 20px;
+            
+            .img-haut-page
+            {       
+                display: block;        
+            } 
+        }
+
+        .medias
+        {      
+            .images
+            {
+                .liste-imgs
+                {
+                    img
+                    {
+                        opacity: 0.5;
+                        cursor: pointer;
+                        &:hover
+                        {
+                            opacity: 1;
+                            filter: drop-shadow(0px 0 20px #0066cc);
+                            border: none;
+                        }
+    
+                    }
+                }
+
+            } 
+        }
+    }
+}

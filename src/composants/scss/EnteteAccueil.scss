@@ -10,7 +10,19 @@
         text-shadow: 0px 4px 9px #000;
         margin: 0;
         padding: 15px 20px;
-        font-size: 20px;
-        font-family: 'Montserrat';
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+// Petits écrans
+@media(max-width: 950px)
+{
+    .EnteteAccueil
+    {
+        .nom
+        {            
+            font-size: 20px;
+        }
     }
 }

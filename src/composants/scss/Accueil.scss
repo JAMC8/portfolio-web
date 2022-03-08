@@ -12,9 +12,21 @@
     {
         position: absolute;
         z-index: -1;
-        width: 90%;
+        width: 75%;
         height: 100%;
         object-fit: cover;
         // display: none;
+    }
+}
+
+@media(max-width: 950px)
+{
+    .Accueil
+    {
+
+        .videoArrierePlan
+        {
+            width: 100%;
+        }
     }
 }

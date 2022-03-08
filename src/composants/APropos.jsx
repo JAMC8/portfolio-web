@@ -12,9 +12,9 @@ export default function APropos(props)
                 
                 <div className="textePresentation">
                     <p>Bonjour, je m'appelle <span className="nom">Julian Maldonado</span>,</p>
-                    <p>Je suis finissant en Techniques d'Intégration Multimédia au Collège de Maisonneuve. Je suis passionné par la programmation C# et mon objectif est de devenir programmeur de jeux vidéo. Je veux faire la différence dans le milieu du jeu vidéo.</p>
+                    <p>Je suis un étudiant en génie logiciel à l'École de technologie supérieur (ÉTS). Je suis passionné par la programmation C# et mon objectif est de devenir programmeur de jeux vidéo. Je veux faire la différence dans le milieu du jeu vidéo.</p>
                     <p>Mon principal champ d’intérêt est surtout la programmation de jouabilité des jeux vidéo mais j'aime aussi la programmation Web back-end.</p>
-                    <p>Mon plan d’action après avoir fini mon D.E.C en intégration multimédia c’est d’aller à l’université ETS dans le programme de Génie Logiciel. Pour mon futur, je veux travailler pour des compagnies de jeux vidéos d'haute gamme comme Ubisoft ou EA.</p>
+                    <p>Pour mon futur, je veux travailler pour des compagnies de jeux vidéos d'haute gamme comme Ubisoft ou EA. Présentement je suis en recherche d'un stage en programmation de jouabilité de jeux vidéo.</p>
                 </div>
 
                 <div className="sectionHabiletes">

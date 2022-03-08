@@ -27,6 +27,8 @@ export default function Contact(props)
                         <div className="courriel">
                             <h3>Adresse courriel</h3>
                             <a href="mailto:juliandresmc@hotmail.com">juliandresmc@hotmail.com</a>
+                            <h3>Adresse courriel ÉTS</h3>
+                            <a href="mailto:julian-andres.maldonado.1@ens.etsmtl.ca">julian-andres.maldonado.1@ens.etsmtl.ca</a>
                         </div>
                         <div className="telephone">
                             <h3>Téléphone</h3>
